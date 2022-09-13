@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        form
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form > *
+        {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="nom de famille">
+        <input type="text" placeholder="prénom">
+        <input type="tel" placeholder="numéro de téléphone">
+        <input type="email" placeholder="adresse email">
+        
+        <label>Sélectionnez la ville</label>
+        <select>
+            <option value="lille">lille</option>
+            <option value="paris">paris</option>
+            <option value="bordeaux">bordeaux</option>
+            <option value="marseille">marseille</option>
+            <option value="nantes">nantes</option>
+            <option value="lyon">lyon</option>
+            <option value="la rochelle">la rochelle</option>
+            <option value="poitiers">poitiers</option>
+            <option value="toulouse">toulouse</option>
+        </select>
+
+        <input type="date" placeholder="date d'arrivée">
+        <input type="number" placeholder="nombre de personnes">
+
+        <label>vos options</label>
+        <label>climatisation</label>
+        <input type="checkbox">
+        <label>mini bar</label>
+        <input type="checkbox">
+        <label>jacuzzi</label>
+        <input type="checkbox">
+
+        <textarea placeholder="ajouter un commentaire" cols="30" rows="10"></textarea>
+
+        <label>j'accepte les conditions d'utilisation</label>
+        <label>j'accepte</label>
+        <input type="radio">
+
+        <input type="submit" value="envoyer ma demande">
+    </form>
+</body>
+</html>

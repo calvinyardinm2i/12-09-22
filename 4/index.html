@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		form
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			height: 100vh;
+		}
+
+		form input, form optgroup, form select, form div
+		{
+			margin: 7px;
+		}
+
+	</style>
+</head>
+<body>
+	<form>
+		<select>
+			<option value="pomme">pomme</option>
+			<option value="fraise">fraise</option>
+			<option value="poire">poire</option>
+			<option value="banane">banane</option>
+		</select>
+	
+		<select>
+			<optgroup label="fruits">
+				<option value="pomme">pomme</option>
+				<option value="banane">banane</option>
+				<option value="fraise">fraise</option>
+			</optgroup>
+	
+			<optgroup label="légumes">
+				<option value="pomme de terre">pomme de terre</option>
+				<option value="carotte">carotte</option>
+			</optgroup>
+		</select>
+	
+		<input type="text" placeholder="Prénom">
+		
+		<div><label>Html</label><input type="checkbox"></div>
+		<div><label>Css</label><input type="checkbox"></div>
+		<div><label>Js</label><input type="checkbox"></div>
+	
+		<div><label>homme</label><input type="radio" name="sexe"></div>
+		<div><label>femme</label><input type="radio" name="sexe"></div>
+
+		<input type="submit">
+	</form>
+</body>
+</html>
